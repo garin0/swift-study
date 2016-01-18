@@ -33,9 +33,6 @@
                                 <state key="normal" title="게시판 이동">
                                     <color key="titleColor" red="0.92549019610000005" green="0.53333333329999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="5av-ub-iHt" kind="presentation" id="Aji-wp-NIb"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="로그인 되었습니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3L-ji-SHU">
                                 <rect key="frame" x="20" y="157" width="335" height="21"/>
