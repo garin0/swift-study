@@ -10,36 +10,36 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tR6-NK-ngT"/>
-                        <viewControllerLayoutGuide type="bottom" id="Oau-9T-nR3"/>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="로그인 완료" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3L-ji-SHU">
+                                <rect key="frame" x="20" y="92" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdv-LL-HhJ">
-                                <rect key="frame" x="122" y="319" width="130" height="30"/>
-                                <color key="backgroundColor" red="0.92549019610000005" green="0.53333333329999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="163" y="319" width="49" height="30"/>
                                 <state key="normal" title="Logout">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="logoutButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iYO-XS-M8f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80c-ba-o1n">
-                                <rect key="frame" x="153" y="381" width="69" height="30"/>
-                                <state key="normal" title="게시판 이동">
-                                    <color key="titleColor" red="0.92549019610000005" green="0.53333333329999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVk-hY-weO">
+                                <rect key="frame" x="166" y="483" width="43" height="30"/>
+                                <state key="normal" title="웹 이동"/>
+                                <connections>
+                                    <segue destination="Gej-rC-xg9" kind="presentation" identifier="WebView" id="3nJ-QP-UAe"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="로그인 되었습니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3L-ji-SHU">
-                                <rect key="frame" x="20" y="157" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -52,15 +52,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1217.8125" y="343.83802816901408"/>
+            <point key="canvasLocation" x="723.5" y="344.5"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="ttK-bX-WaK">
             <objects>
                 <viewController id="iZr-sQ-pip" customClass="LoginViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jJG-fk-b0j"/>
-                        <viewControllerLayoutGuide type="bottom" id="Z54-mB-0qL"/>
+                        <viewControllerLayoutGuide type="top" id="t7p-0I-pZ9"/>
+                        <viewControllerLayoutGuide type="bottom" id="LCm-2r-Byg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NuV-3R-WWN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -72,7 +72,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyg-Op-wxu">
-                                <rect key="frame" x="120" y="319" width="130" height="30"/>
+                                <rect key="frame" x="141" y="347" width="88" height="30"/>
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.53333333333333333" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Login">
@@ -82,8 +82,14 @@
                                     <action selector="loginButtonTapped:" destination="iZr-sQ-pip" eventType="touchUpInside" id="7bu-eL-uEi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skb-3U-x3W">
+                                <rect key="frame" x="162" y="397" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvC-ny-24f">
-                                <rect key="frame" x="122" y="426" width="130" height="30"/>
+                                <rect key="frame" x="141" y="426" width="88" height="30"/>
                                 <color key="backgroundColor" red="0.21176470588235294" green="0.27450980392156865" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Register">
@@ -100,21 +106,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="jsP-sd-FFX">
-                                <rect key="frame" x="16" y="206" width="339" height="30"/>
+                                <rect key="frame" x="16" y="208" width="339" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skb-3U-x3W">
-                                <rect key="frame" x="164" y="377" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="667"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="userEmailTextField" destination="4cz-yC-RKe" id="KaK-3p-FO9"/>
                         <outlet property="userPasswordTextField" destination="jsP-sd-FFX" id="hWy-cR-n1B"/>
@@ -122,46 +121,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziw-w1-tOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1754.5" y="343.5"/>
+            <point key="canvasLocation" x="1138.5" y="344.5"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="eFl-h6-Xhf">
+        <scene sceneID="ddr-vp-38p">
             <objects>
-                <viewController id="5av-ub-iHt" sceneMemberID="viewController">
+                <viewController id="Gej-rC-xg9" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="upd-Qq-rx0"/>
-                        <viewControllerLayoutGuide type="bottom" id="8nA-JZ-yvT"/>
+                        <viewControllerLayoutGuide type="top" id="Olp-TL-nUs"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Mz-Rr-1UV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TmC-cE-XFu">
+                    <view key="view" contentMode="scaleToFill" id="FrL-i4-9uK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aDe-EV-P2B">
-                                <rect key="frame" x="0.0" y="-20" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rZ-T0-l2u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aDe-EV-P2B" firstAttribute="width" secondItem="TmC-cE-XFu" secondAttribute="width" id="6lk-pv-33f"/>
-                            <constraint firstItem="aDe-EV-P2B" firstAttribute="centerY" secondItem="TmC-cE-XFu" secondAttribute="centerY" id="CBr-Rr-TRS"/>
-                            <constraint firstItem="aDe-EV-P2B" firstAttribute="height" secondItem="TmC-cE-XFu" secondAttribute="height" id="D43-4q-kce"/>
-                            <constraint firstItem="aDe-EV-P2B" firstAttribute="centerX" secondItem="TmC-cE-XFu" secondAttribute="centerX" id="bOW-I5-sP7"/>
+                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="centerX" secondItem="FrL-i4-9uK" secondAttribute="centerX" id="KaO-Fb-eh4"/>
+                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="width" secondItem="FrL-i4-9uK" secondAttribute="width" id="gJd-4U-To5"/>
+                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="height" secondItem="FrL-i4-9uK" secondAttribute="height" id="k26-cF-Ff7"/>
+                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="centerY" secondItem="FrL-i4-9uK" secondAttribute="centerY" id="odm-jZ-AHD"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7cq-1H-fwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USo-wx-OX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1345.5" y="1180.5"/>
+            <point key="canvasLocation" x="723.5" y="1081.5"/>
         </scene>
         <!--Register Page View Controller-->
         <scene sceneID="dV0-qs-ap9">
             <objects>
                 <viewController id="yr9-iO-qcU" customClass="RegisterPageViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hgV-Qi-1tA"/>
-                        <viewControllerLayoutGuide type="bottom" id="8ip-0Z-rSW"/>
+                        <viewControllerLayoutGuide type="top" id="020-6g-1D4"/>
+                        <viewControllerLayoutGuide type="bottom" id="tMJ-bD-cZ6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GXX-k9-zyZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -179,27 +178,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="HZE-KR-G8a">
-                                <rect key="frame" x="16" y="194" width="339" height="30"/>
+                                <rect key="frame" x="16" y="201" width="339" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat password:" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-t0-Dsg">
-                                <rect key="frame" x="16" y="232" width="339" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wn-eC-J1w">
-                                <rect key="frame" x="16" y="444" width="339" height="30"/>
-                                <color key="tintColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="이미 계정이 존재합니다.">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="iHaveAnAccountButtonTapped:" destination="yr9-iO-qcU" eventType="touchUpInside" id="Msr-PT-Ww0"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFA-MB-KsP">
-                                <rect key="frame" x="120" y="360" width="130" height="30"/>
+                                <rect key="frame" x="141" y="401" width="88" height="30"/>
                                 <color key="backgroundColor" red="0.21176470588235294" green="0.27450980392156865" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Register">
@@ -209,6 +193,21 @@
                                     <action selector="registerButtonTapped:" destination="yr9-iO-qcU" eventType="touchUpInside" id="LQu-Wt-yhe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wn-eC-J1w">
+                                <rect key="frame" x="16" y="444" width="339" height="30"/>
+                                <color key="tintColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="계정이 존재합니다.">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="iHaveAnAccountButtonTapped:" destination="yr9-iO-qcU" eventType="touchUpInside" id="Msr-PT-Ww0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat password:" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-t0-Dsg">
+                                <rect key="frame" x="16" y="245" width="339" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -221,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVM-mP-rbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1754.5" y="1186.5"/>
+            <point key="canvasLocation" x="1138.5" y="1074.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XAe-SO-nlM">
@@ -240,7 +239,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6k-qM-GMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692.5" y="343.5"/>
+            <point key="canvasLocation" x="277" y="350"/>
         </scene>
     </scenes>
 </document>

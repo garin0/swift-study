@@ -15,6 +15,7 @@
 		94F140BB1A5F95B100EC1BC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F140BA1A5F95B100EC1BC9 /* Images.xcassets */; };
 		94F140BE1A5F95B100EC1BC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F140BC1A5F95B100EC1BC9 /* LaunchScreen.xib */; };
 		94F140CA1A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F140C91A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift */; };
+		967C50CA1C4CCF7D002B0794 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C50C91C4CCF7D002B0794 /* WebViewController.swift */; };
 		96D2F6941C4C887000CE1A6F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D2F6921C4C887000CE1A6F /* Bolts.framework */; };
 		96D2F6951C4C887000CE1A6F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D2F6931C4C887000CE1A6F /* Parse.framework */; };
 		96D2F6971C4C88A600CE1A6F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D2F6961C4C88A600CE1A6F /* AudioToolbox.framework */; };
@@ -53,6 +54,7 @@
 		94F140C31A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLoginAndRegistrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F140C81A5F95B100EC1BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F140C91A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegistrationTests.swift; sourceTree = "<group>"; };
+		967C50C91C4CCF7D002B0794 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		96D2F6921C4C887000CE1A6F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		96D2F6931C4C887000CE1A6F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		96D2F6961C4C88A600CE1A6F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 		94F140B01A5F95B100EC1BC9 /* UserLoginAndRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				967C50C91C4CCF7D002B0794 /* WebViewController.swift */,
 				94F140B31A5F95B100EC1BC9 /* AppDelegate.swift */,
 				94F140B51A5F95B100EC1BC9 /* ViewController.swift */,
 				94F140B71A5F95B100EC1BC9 /* Main.storyboard */,
@@ -281,6 +284,7 @@
 				94D7A55E1A66365A0027A85F /* LoginViewController.swift in Sources */,
 				94F140B61A5F95B100EC1BC9 /* ViewController.swift in Sources */,
 				94F140B41A5F95B100EC1BC9 /* AppDelegate.swift in Sources */,
+				967C50CA1C4CCF7D002B0794 /* WebViewController.swift in Sources */,
 				94D7A55C1A66319A0027A85F /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
