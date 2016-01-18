@@ -35,5 +35,68 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserLoginAndRegistration/ViewController.swift"
+            timestampString = "474791026.894998"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserLoginAndRegistration.ViewController.__deallocating_deinit"
+                  moduleName = "UserLoginAndRegistration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garin/swift-study/UserLoginAndRegisterExampleInSwift-master-2/UserLoginAndRegistration/ViewController.swift"
+                  timestampString = "474791026.908947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserLoginAndRegistration.ViewController.init (UserLoginAndRegistration.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; UserLoginAndRegistration.ViewController"
+                  moduleName = "UserLoginAndRegistration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garin/swift-study/UserLoginAndRegisterExampleInSwift-master-2/UserLoginAndRegistration/ViewController.swift"
+                  timestampString = "474791026.909331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserLoginAndRegistration.ViewController.init (UserLoginAndRegistration.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;UserLoginAndRegistration.ViewController&gt;"
+                  moduleName = "UserLoginAndRegistration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/garin/swift-study/UserLoginAndRegisterExampleInSwift-master-2/UserLoginAndRegistration/ViewController.swift"
+                  timestampString = "474791026.909555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
