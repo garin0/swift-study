@@ -34,7 +34,7 @@
                                     <color key="titleColor" red="0.92549019610000005" green="0.53333333329999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mxb-bH-fO5" kind="presentation" id="FQS-T7-Civ"/>
+                                    <segue destination="5av-ub-iHt" kind="presentation" id="Aji-wp-NIb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="로그인 되었습니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3L-ji-SHU">
@@ -128,29 +128,35 @@
             <point key="canvasLocation" x="1754.5" y="343.5"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Kdc-nk-s7s">
+        <scene sceneID="eFl-h6-Xhf">
             <objects>
-                <viewController id="mxb-bH-fO5" sceneMemberID="viewController">
+                <viewController id="5av-ub-iHt" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fIY-Lf-h1O"/>
-                        <viewControllerLayoutGuide type="bottom" id="k7G-pc-7gw"/>
+                        <viewControllerLayoutGuide type="top" id="upd-Qq-rx0"/>
+                        <viewControllerLayoutGuide type="bottom" id="8nA-JZ-yvT"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qEl-Ft-Fep">
+                    <view key="view" contentMode="scaleToFill" id="TmC-cE-XFu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2HV-JM-TaR">
-                                <rect key="frame" x="0.0" y="-5" width="375" height="672"/>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aDe-EV-P2B">
+                                <rect key="frame" x="0.0" y="-20" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aDe-EV-P2B" firstAttribute="width" secondItem="TmC-cE-XFu" secondAttribute="width" id="6lk-pv-33f"/>
+                            <constraint firstItem="aDe-EV-P2B" firstAttribute="centerY" secondItem="TmC-cE-XFu" secondAttribute="centerY" id="CBr-Rr-TRS"/>
+                            <constraint firstItem="aDe-EV-P2B" firstAttribute="height" secondItem="TmC-cE-XFu" secondAttribute="height" id="D43-4q-kce"/>
+                            <constraint firstItem="aDe-EV-P2B" firstAttribute="centerX" secondItem="TmC-cE-XFu" secondAttribute="centerX" id="bOW-I5-sP7"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sVC-9v-Fsx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7cq-1H-fwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1217.5" y="1186.5"/>
+            <point key="canvasLocation" x="1345.5" y="1180.5"/>
         </scene>
         <!--Register Page View Controller-->
         <scene sceneID="dV0-qs-ap9">
@@ -188,7 +194,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wn-eC-J1w">
                                 <rect key="frame" x="16" y="444" width="339" height="30"/>
                                 <color key="tintColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="I have an account. Let me login.">
+                                <state key="normal" title="이미 계정이 존재합니다.">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
