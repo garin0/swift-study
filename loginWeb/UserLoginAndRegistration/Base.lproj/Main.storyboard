@@ -37,7 +37,7 @@
                                 <rect key="frame" x="166" y="483" width="43" height="30"/>
                                 <state key="normal" title="웹 이동"/>
                                 <connections>
-                                    <segue destination="Gej-rC-xg9" kind="presentation" identifier="WebView" id="3nJ-QP-UAe"/>
+                                    <action selector="openURL:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jtg-Nw-Ah7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,37 +122,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziw-w1-tOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1138.5" y="344.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ddr-vp-38p">
-            <objects>
-                <viewController id="Gej-rC-xg9" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Olp-TL-nUs"/>
-                        <viewControllerLayoutGuide type="bottom" id="4Mz-Rr-1UV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FrL-i4-9uK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rZ-T0-l2u">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="centerX" secondItem="FrL-i4-9uK" secondAttribute="centerX" id="KaO-Fb-eh4"/>
-                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="width" secondItem="FrL-i4-9uK" secondAttribute="width" id="gJd-4U-To5"/>
-                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="height" secondItem="FrL-i4-9uK" secondAttribute="height" id="k26-cF-Ff7"/>
-                            <constraint firstItem="4rZ-T0-l2u" firstAttribute="centerY" secondItem="FrL-i4-9uK" secondAttribute="centerY" id="odm-jZ-AHD"/>
-                        </constraints>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="USo-wx-OX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="723.5" y="1081.5"/>
         </scene>
         <!--Register Page View Controller-->
         <scene sceneID="dV0-qs-ap9">

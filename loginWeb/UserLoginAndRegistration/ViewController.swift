@@ -53,6 +53,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func openURL(sender: AnyObject) {
+        let url : NSURL = NSURL(string: "http://www.naver.com")!
+        
+        UIApplication.sharedApplication().openURL(url)
+    }
     
 
 
