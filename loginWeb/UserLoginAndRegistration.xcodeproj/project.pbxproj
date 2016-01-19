@@ -15,6 +15,7 @@
 		94F140BB1A5F95B100EC1BC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F140BA1A5F95B100EC1BC9 /* Images.xcassets */; };
 		94F140BE1A5F95B100EC1BC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F140BC1A5F95B100EC1BC9 /* LaunchScreen.xib */; };
 		94F140CA1A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F140C91A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift */; };
+		9621F6C01C4E02030094A88B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621F6BF1C4E02030094A88B /* UploadViewController.swift */; };
 		967C50CA1C4CCF7D002B0794 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C50C91C4CCF7D002B0794 /* WebViewController.swift */; };
 		96D2F6941C4C887000CE1A6F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D2F6921C4C887000CE1A6F /* Bolts.framework */; };
 		96D2F6951C4C887000CE1A6F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D2F6931C4C887000CE1A6F /* Parse.framework */; };
@@ -54,6 +55,7 @@
 		94F140C31A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLoginAndRegistrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F140C81A5F95B100EC1BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F140C91A5F95B100EC1BC9 /* UserLoginAndRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegistrationTests.swift; sourceTree = "<group>"; };
+		9621F6BF1C4E02030094A88B /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		967C50C91C4CCF7D002B0794 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		96D2F6921C4C887000CE1A6F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		96D2F6931C4C887000CE1A6F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				94F140B11A5F95B100EC1BC9 /* Supporting Files */,
 				94D7A55B1A6631990027A85F /* RegisterPageViewController.swift */,
 				94D7A55D1A66365A0027A85F /* LoginViewController.swift */,
+				9621F6BF1C4E02030094A88B /* UploadViewController.swift */,
 			);
 			path = UserLoginAndRegistration;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D7A55E1A66365A0027A85F /* LoginViewController.swift in Sources */,
+				9621F6C01C4E02030094A88B /* UploadViewController.swift in Sources */,
 				94F140B61A5F95B100EC1BC9 /* ViewController.swift in Sources */,
 				94F140B41A5F95B100EC1BC9 /* AppDelegate.swift in Sources */,
 				967C50CA1C4CCF7D002B0794 /* WebViewController.swift in Sources */,

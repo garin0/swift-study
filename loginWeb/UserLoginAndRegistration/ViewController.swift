@@ -54,8 +54,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openURL(sender: AnyObject) {
-        let url : NSURL = NSURL(string: "http://www.naver.com")!
-        
+        let url : NSURL = NSURL(string: "http://192.168.0.138:8080/first/")!
+        //192.168.0.138:8080/first/
         UIApplication.sharedApplication().openURL(url)
     }
     
